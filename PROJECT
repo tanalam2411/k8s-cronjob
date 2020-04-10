@@ -1,0 +1,7 @@
+domain: kubebuilder.io
+repo: github.com/tanalam2411/k8s-cronjob
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
+version: "2"
